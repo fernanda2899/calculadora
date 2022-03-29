@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Saul Alejandro ">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    <title>Document</title>
+</head>
+<body background="imagenes/fondo.jpg">
+<center>
+   <div class="contenedor">
+   <form action="form_top">
+      <h1 div class="h1_digito"> <strong> Ingresá tu primer número : </strong></h1>
+       <input type="text" id="N1"  style ="width: 200px; height: 50px " placeholder=" ejemplo: 10 ">
+     <br><br>
+       <h1 div class="h1_digito"><strong>Ingresá tu segundo número : </strong></h1>
+       <input type="text" id="N2"  style ="width: 200px; height:50px "placeholder=" ejemplo: 5 ">
+       <br>
+       <br>
+<input type="button" value="Suma (+)" class="suma" onclick="suma()">
+<input type="button" value="Rsta (-)" class ="resta" onclick="resta()">
+<input type="button" value="Multiplicacion (*)" class="multiplicacion" onclick="multiplicacion()">
+<input type="button" value="Division (?/?)" class="division" onclick="division()">
+<input type="reset" name="button" id="limpiar" value="Limpiar ">
+<br>
+<p>Resultado</p>
+<input type="text" id="resultado" placeholder="" readonly>
+   </form> 
+
+</body></center>
+<script src="Js/calculadoraJS.js"></script>
+</html>
